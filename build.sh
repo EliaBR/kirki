@@ -23,7 +23,6 @@ rm -rf .git
 rm -rf .github
 rm -rf .sass-cache
 rm -rf controls/css/*.map
-rm -rf controls/js/src
 rm -rf controls/scss
 rm -rf docs
 rm modules/custom-sections/*.scss
@@ -31,7 +30,6 @@ rm modules/custom-sections/*.map
 rm modules/tooltips/*.scss
 rm modules/tooltips/*.map
 rm -rf node_modules
-rm -rf tests
 rm .codeclimate.yml
 rm .coveralls.yml
 rm .csslintrc
@@ -41,15 +39,14 @@ rm .jscsrc
 rm .jshintignore
 rm .jshintrc
 rm .jhintrc
+rm .phpcs.xml.dist
 rm .simplecov
 rm .travis.yml
 rm CODE_OF_CONDUCT.md
 rm composer.*
-rm -rf vendor/
 rm example.php
 rm Gruntfile.js
 rm package.json
-rm phpcs.ruleset.xml
 rm phpunit.xml
 rm phpunit.xml.dist
 rm README.md
